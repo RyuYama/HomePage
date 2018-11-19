@@ -1,3 +1,5 @@
+@import url(sanitize.css);
+
 h1{
     font-size: 24px;
     margin:    0pt;
@@ -5,5 +7,60 @@ h1{
 
 p {
     font-size: 14px;
-    --margin:    0pt;
 }
+
+.content {
+    background-color: #fff;
+    width           : 600px;
+    margin          : 10px   auto;
+    border          : 1px    solid #d1d1d1;
+    padding         : 30px;  
+}
+
+input {
+    /*border       : 0px;*/
+    border-bottom: 1px    soild #d1d1d1;
+    font-size    : 1.2em;
+    width        : 100%;
+    padding      : 8px;
+}
+
+button {
+    width           : 100%;
+    background-color: #2096F3;
+    color           : #fff;
+    padding         : 15px; 
+    border-radius   : 5px;
+    box-shadow      : 0 0 4px rgba(0, 0, 0, .4)
+}
+
+/* 練習用
+h1 {
+    font-size: 25px;
+}
+
+body {
+    font-size: 10px;
+    margin   : 0pt;
+}
+*/
+
+/* 
+ * 色覚書 多分まず使わないだろう
+ * black
+ * gray
+ * silver
+ * white
+ * blue
+ * navy
+ * teal
+ * green
+ * lime
+ * aqua
+ * yellow
+ * red
+ * fuchsia
+ * olive
+ * purple
+ * maroon
+ */
