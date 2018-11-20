@@ -1,8 +1,8 @@
 @import url(sanitize.css);
 
 h1{
-    font-size: 24px;
-    margin:    0pt;
+    font-size: 20px;
+    margin   :  0pt;
 }
 
 p {
@@ -12,27 +12,50 @@ p {
 .content {
     background-color: #fff;
     width           : 600px;
-    margin          : 10px   auto;
-    border          : 1px    solid #d1d1d1;
-    padding         : 30px;  
+    margin          :  10px   auto;
+    border          :   1px   solid #d1d1d1;
+    padding         :  30px;
+}
+
+.control {
+    margin-bottom: 1em;
 }
 
 input {
     /*border       : 0px;*/
-    border-bottom: 1px    soild #d1d1d1;
+    border-top   :   0px;
+    border-left  :   0px;
+    border-right :   0px;
+    border-bottom:   1px   soild #d1d1d1;
     font-size    : 1.2em;
     width        : 100%;
-    padding      : 8px;
+    padding      :   8px;
 }
 
 button {
     width           : 100%;
     background-color: #2096F3;
     color           : #fff;
-    padding         : 15px; 
-    border-radius   : 5px;
+    padding         :  15px; 
+    border-radius   :   5px;
     box-shadow      : 0 0 4px rgba(0, 0, 0, .4)
 }
+
+label {
+    display      : block;
+    margin-bottom:  .5em;
+}
+
+.required {
+    margin-left     : .3em;
+    color           : #f33;
+    font-size       : .9em;
+    padding         :  3px;
+    background-color:  #fee;
+    font-weight     : bold;
+
+}
+
 
 /* 練習用
 h1 {
