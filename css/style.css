@@ -9,6 +9,10 @@ p {
     font-size: 14px;
 }
 
+body {
+    background-color: #fafafa
+}
+
 .content {
     background-color: #fff;
     width           : 600px;
