@@ -17,7 +17,7 @@ body {
     background-color: #fff;
     width           : 600px;
     margin          :  10px   auto;
-    border          :   1px   solid #d1d1d1;
+    /*border          :   1px   solid #d1d1d1;*/
     padding         :  30px;
 }
 
@@ -26,10 +26,6 @@ body {
 }
 
 input {
-    /*border       : 0px;*/
-    border-top   :   0px;
-    border-left  :   0px;
-    border-right :   0px;
     border-bottom:   1px   soild #d1d1d1;
     font-size    : 1.2em;
     width        : 100%;
